@@ -15,6 +15,10 @@ class PruebaController extends Controller
     {
         return 'esta es una prueba';
     }
+    public function conficto()
+    {
+        return 'esta es una conficto';
+    }
 
     /**
      * Show the form for creating a new resource.
