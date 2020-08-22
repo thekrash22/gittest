@@ -21,6 +21,11 @@ class PruebaController extends Controller
         return $xlo;
     }
 
+    public function confictro()
+    {
+        $xlo = 'Este es un mensaje mas largo de conficto';
+        return $xlo;
+    }
     /**
      * Show the form for creating a new resource.
      *
