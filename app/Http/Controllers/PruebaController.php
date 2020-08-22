@@ -17,7 +17,8 @@ class PruebaController extends Controller
     }
     public function conficto()
     {
-        return 'esta es una conficto';
+        $xlo = 'Este es un mensaje mas largo de conficto';
+        return $xlo;
     }
 
     /**
