@@ -8,3 +8,4 @@ Route::get('/', function () {
 
   return view('travel_list', ['visited' => $visited, 'togo' => $togo ] );
 });
+Route::get('/rutanueva','PruebaController@index');
