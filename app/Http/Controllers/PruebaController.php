@@ -18,6 +18,7 @@ class PruebaController extends Controller
     public function conficto()
     {
         $xlo = 'Este es un mensaje mas largo de conficto';
+        //asdasdasdasd
         return $xlo;
     }
 
@@ -91,4 +92,11 @@ class PruebaController extends Controller
     {
         //
     }
+    public function fff($id)
+    {
+        /**
+         * solo datos vacios
+         */
+    }
+
 }
