@@ -43,6 +43,7 @@ services:
       - ./docker-compose/nginx:/etc/nginx/conf.d/
     networks:
       - travellist
+    command: [nginx-debug, '-g', 'daemon off;']
 
 networks:
   travellist:
